@@ -619,6 +619,7 @@ body {
     }
     .follow__imgs {
       margin-top: 15px;
+      justify-content: space-between;
       width: 100%;
       .imgs__twoSmall {
         margin-right: 7px;
@@ -629,7 +630,7 @@ body {
     }
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .follow {
     flex-direction: column;
     padding: 60px 50px 70px;
